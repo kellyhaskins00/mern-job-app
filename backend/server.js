@@ -47,7 +47,13 @@ jobRoutes.route('/add').post(function(req, res){
 });
 
 jobRoutes.route('/update/:id').post(function(req, res){
+    
+    console.log(req.params.id);
+
     Job.findById(req.params.id, function(err, job) {
+        
+        console.log(job);
+        
         if (!job)
             res.status(404).send('data is not found');
         else
