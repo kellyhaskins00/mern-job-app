@@ -80,7 +80,7 @@ export default class EditJob extends Component {
                 <h3>Update Job</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                        <label>Description: </label>
+                        <label>Company/ Position: </label>
                         <input type="text"
                             className="form-control"
                             value={this.state.job_description}
@@ -89,7 +89,7 @@ export default class EditJob extends Component {
                     </div>
 
                     <div className="form-group">
-                        <label>Responsible: </label>
+                        <label>Date Applied: </label>
                         <input type="text"
                             className="form-control"
                             value={this.state.job_responsible}
@@ -107,7 +107,7 @@ export default class EditJob extends Component {
                                 checked={this.state.job_priority === 'Low'}
                                 onChange={this.onChangeJobPriority}
                             />
-                            <label className="form-check-label">Low</label>
+                            <label className="form-check-label">Applied</label>
                         </div>
 
                         <div className="form-check form-check-inline">
@@ -119,7 +119,7 @@ export default class EditJob extends Component {
                                 checked={this.state.job_priority === 'Medium'}
                                 onChange={this.onChangeJobPriority}
                             />
-                            <label className="form-check-label">Medium</label>
+                            <label className="form-check-label">Pending</label>
                         </div>
 
                         <div className="form-check form-check-inline">
@@ -131,7 +131,7 @@ export default class EditJob extends Component {
                                 checked={this.state.job_priority === 'High'}
                                 onChange={this.onChangeJobPriority}
                             />
-                            <label className="form-check-label">High</label>
+                            <label className="form-check-label">Declined</label>
                         </div>
                         <div className="form=check">
                             <input type="checkbox"

@@ -14,11 +14,11 @@ class App extends Component {
       <Router>
         <div className="container">
           
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <nav className="navbar navbar-expand-lg">
             <a className="navbar-brand" href="https://codingthesmartway.com" target="_blank">
-              <img src={logo} width="30" height="30" alt="CodingTheSmartWay.com" />
+              <img src={logo} width="155" height="auto" alt="CodingTheSmartWay.com" />
             </a>
-            <Link to="/" className="navbar-brand">MERN-Stack Job App</Link>
+            <Link to="/" className="navbar-brand">Job Application Tracker</Link>
             <div className="collpase nav-collapse">
               <ul className="navbar-nav mr-auto">
                 <li className="navbar-item">
