@@ -39,7 +39,7 @@ export default class EditJob extends Component {
 
     onChangeJobResponsible(e) {
         this.setState({
-            job_responsible: e.target.vaule
+            job_responsible: e.target.value
         });
     }
 
@@ -79,7 +79,7 @@ export default class EditJob extends Component {
     render() {
         return (
             <div>
-                <h3>Update Job</h3>
+                <h3 class="update-list">Update Job</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label>Company/ Position: </label>

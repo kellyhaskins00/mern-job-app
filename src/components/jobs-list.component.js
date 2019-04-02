@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
-import "font-awesome/css/font-awesome.css";
-
 const Job = props => (
     <tr>
         <td className={props.job.job_completed ? 'completed' : ''}>{props.job.job_description}</td>
