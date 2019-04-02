@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
+import "font-awesome/css/font-awesome.css";
+
 export default class CreateJob extends Component {
 
     constructor(props) {
@@ -67,7 +69,7 @@ export default class CreateJob extends Component {
     render() {
         return (
             <div style={{marginTop: 20}}>
-                <h3>Create New Job</h3>
+                <h3 class="create_job">Create New Job</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label>Company/ Position: </label>
@@ -90,9 +92,9 @@ export default class CreateJob extends Component {
                             <input className="form-check-input"
                                     type="radio"
                                     name="priorityOptions"
-                                    id="priorityLow"
-                                    value="Low"
-                                    checked={this.state.job_priority==='Low'}
+                                    id="priorityApplied"
+                                    value="Applied"
+                                    checked={this.state.job_priority==='Applied'}
                                     onChange={this.onChangeJobPriority}
                                     />
                             <label className="form-check-label">Applied</label>
@@ -102,24 +104,24 @@ export default class CreateJob extends Component {
                             <input className="form-check-input"
                                     type="radio"
                                     name="priorityOptions"
-                                    id="priorityMedium"
-                                    value="Medium"
-                                    checked={this.state.job_priority==='Medium'}
+                                    id="priorityInterview"
+                                    value="Interview"
+                                    checked={this.state.job_priority==='Interview'}
                                     onChange={this.onChangeJobPriority}
                                     />
-                            <label className="form-check-label">Pending</label>
+                            <label className="form-check-label">Interview</label>
                         </div>
 
                         <div className="form-check form-check-inline">
                             <input className="form-check-input"
                                     type="radio"
                                     name="priorityOptions"
-                                    id="priorityHigh"
-                                    value="High"
-                                    checked={this.state.job_priority==='High'}
+                                    id="priorityPending"
+                                    value="Pending"
+                                    checked={this.state.job_priority==='Pending'}
                                     onChange={this.onChangeJobPriority}
                                     />
-                            <label className="form-check-label">Declined</label>
+                            <label className="form-check-label">Pending</label>
                         </div>
 
                     </div>

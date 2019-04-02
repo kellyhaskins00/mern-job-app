@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
+import "font-awesome/css/font-awesome.css";
+
 const Job = props => (
     <tr>
         <td className={props.job.job_completed ? 'completed' : ''}>{props.job.job_description}</td>
@@ -50,7 +52,7 @@ export default class JobsList extends Component {
     render() {
         return (
             <div>
-                <h3>Jobs List</h3>
+                <h3 class="job-list">JOBS LISTS</h3>
                 <table className="table table-striped" style={{marginTop: 20}}>
                     <thead>
                         <tr>
@@ -58,6 +60,7 @@ export default class JobsList extends Component {
                             <th>Date Applied</th>
                             <th>Status</th>
                             <th>Actions</th>
+                            
                         </tr>
                     </thead>
                     <tbody>

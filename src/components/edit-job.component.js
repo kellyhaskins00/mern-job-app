@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import "font-awesome/css/font-awesome.css";
+
 export default class EditJob extends Component {
 
     constructor(props) {
@@ -102,9 +104,9 @@ export default class EditJob extends Component {
                             <input className="form-check-input"
                                 type="radio"
                                 name="priorityOptions"
-                                id="priorityLow"
-                                value="Low"
-                                checked={this.state.job_priority === 'Low'}
+                                id="priorityApplied"
+                                value="Applied"
+                                checked={this.state.job_priority === 'Applied'}
                                 onChange={this.onChangeJobPriority}
                             />
                             <label className="form-check-label">Applied</label>
@@ -114,9 +116,9 @@ export default class EditJob extends Component {
                             <input className="form-check-input"
                                 type="radio"
                                 name="priorityOptions"
-                                id="priorityMedium"
-                                value="Medium"
-                                checked={this.state.job_priority === 'Medium'}
+                                id="priorityPending"
+                                value="Interview"
+                                checked={this.state.job_priority === 'Pending'}
                                 onChange={this.onChangeJobPriority}
                             />
                             <label className="form-check-label">Pending</label>
@@ -126,12 +128,12 @@ export default class EditJob extends Component {
                             <input className="form-check-input"
                                 type="radio"
                                 name="priorityOptions"
-                                id="priorityHigh"
-                                value="High"
-                                checked={this.state.job_priority === 'High'}
+                                id="priorityInterview"
+                                value="Interview"
+                                checked={this.state.job_priority === 'Interview'}
                                 onChange={this.onChangeJobPriority}
                             />
-                            <label className="form-check-label">Declined</label>
+                            <label className="form-check-label">Interview</label>
                         </div>
                         <div className="form=check">
                             <input type="checkbox"
@@ -144,7 +146,7 @@ export default class EditJob extends Component {
                                     />
 
                                     <label className="form-check-label" htmlFor="completedCheckbox">
-                                    Completed
+                                    Declined
                                     </label>
                         </div>
                         <br/>
