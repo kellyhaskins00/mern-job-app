@@ -117,7 +117,7 @@ export default class EditJob extends Component {
                                 type="radio"
                                 name="priorityOptions"
                                 id="priorityPending"
-                                value="Interview"
+                                value="Pending"
                                 checked={this.state.job_priority === 'Pending'}
                                 onChange={this.onChangeJobPriority}
                             />
