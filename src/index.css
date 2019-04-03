@@ -17,21 +17,47 @@ code {
 }
 
 .job-list{
-  font-size: 80pt;
+  font-size: 55pt;
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
 }
 
 
 .update-list {
-  font-size: 80pt;
+  font-size: 55pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+.search-list {
+  font-size: 55pt;
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
 }
 
 .create_job{
-  font-size: 80pt;
+  font-size: 55pt;
   font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+#indeed {
+  background-color: #2164f3;
+}
+
+#glassdoor {
+  background-color: 
+  
+#0daa41;
+}
+
+
+#monster {
+  background-color: 
+  #642891;
+}
+
+h5 {
   color: white;
 }
 
@@ -40,7 +66,8 @@ p {
 }
 
 th, tr {
-  color: white;
+  color: 
+  #6c757d;
 }
 
 .completed {
@@ -48,12 +75,19 @@ th, tr {
 }
 
 label {
-  color: white;
+  color: 
+  #6c757d;
 }
 
 .navbar-brand {
   color: white;
 }
+
+a {
+  font-weight: bold;
+  font-size: 15pt;
+}
+
 
 /* .navbar-brand:hover {
   color: coral;

@@ -69,7 +69,7 @@ export default class CreateJob extends Component {
     render() {
         return (
             <div style={{marginTop: 20}}>
-                <h3 class="create_job">Create New Job</h3>
+                <h3 class="create_job">APPLICATION STATUS</h3>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label>Company/ Position: </label>
@@ -126,7 +126,7 @@ export default class CreateJob extends Component {
 
                     </div>
                     <div className="form-group">
-                        <input type="submit" value="Create Job" className="btn btn-primary" />
+                        <input type="submit" value="Create Job" className="btn btn-secondary" />
                     </div>
                 </form>
             </div>

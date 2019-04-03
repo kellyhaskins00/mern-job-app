@@ -151,7 +151,7 @@ export default class EditJob extends Component {
                         </div>
                         <br/>
                         <div className="form-group">
-                            <input type="submit" value="Update Job" className="btn btn-primary" />
+                            <input type="submit" value="Update Job" className="btn btn-secondary" />
                         </div>
                     </div>
                 </form>
