@@ -11,7 +11,6 @@ let Job = require('./job.model');
 
 app.use(cors());
 app.use(bodyParser.json());
-
 mongoose.connect('mongodb://127.0.0.1:27017/jobs', { useNewUrlParser: true});
 const connection = mongoose.connection;
 
