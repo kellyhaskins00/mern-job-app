@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const jobRoutes = express.Router();
-const PORT = process.env.PORT || 4000;
+// const PORT = process.env.PORT || 4000;
 
 
 let Job = require('./job.model');
@@ -12,7 +12,10 @@ let Job = require('./job.model');
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/jobs', { useNewUrlParser: true});
+// mongoose.connect('mongodb://127.0.0.1:27017/jobs', { useNewUrlParser: true});
+// const connection = mongoose.connection;
+
+mongoose.connect('mongodb://heroku_346zp5tm:joi5m43fokc666ae5lnfudk1jg@ds131676.mlab.com:31676/heroku_346zp5tm');
 const connection = mongoose.connection;
 
 connection.once('open', function() {
@@ -74,6 +77,10 @@ jobRoutes.route('/update/:id').post(function(req, res){
 
 app.use('/jobs', jobRoutes);
 
-app.listen(PORT, function(){
-    console.log("Server is running on Port: " + PORT);
-});
+// app.listen(PORT, function(){
+//     console.log("Server is running on Port: " + PORT);
+// });
+
+app.listen(process.env.PORT || 4000, function() {
+    console.log('Express server is up and running!');
+  });
