@@ -10,7 +10,6 @@ import SearchJob from "./components/search";
 import logo from "./logo.png";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
-import { library } from '@fortawesome/fontawesome-svg-core'
 
 class App extends Component {
   render() {

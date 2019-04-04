@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd client && yarn && yarn run build",
-<<<<<<< HEAD
     "start": "node server.js"
-=======
-    "start": "node server/server.js"
->>>>>>> 3377573deedae02441e011395a9f024438789615
   },
   "keywords": [],
   "author": "",

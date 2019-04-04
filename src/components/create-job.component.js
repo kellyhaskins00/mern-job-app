@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-import "font-awesome/css/font-awesome.css";
-
 export default class CreateJob extends Component {
 
     constructor(props) {
