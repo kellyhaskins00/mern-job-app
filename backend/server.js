@@ -18,8 +18,8 @@ app.listen(process.env.PORT || 3000, function() {
     console.log('Express server is up and running!');
   });
 
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://user:test123@ds111025.mlab.com:11025/heroku_70v5gncv');
+// const mongoose = require('mongoose');
+// mongoose.connect('mongodb://user:test123@ds125048.mlab.com:25048/heroku_46nf6tgt');
 
 
 connection.once('open', function() {
