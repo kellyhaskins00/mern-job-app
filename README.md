@@ -37,21 +37,21 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-How the App Works: 
+### How the App Works: 
 
-List of Jobs Applied
+### List of Jobs Applied
 
 ![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/jobList.JPG)
 
-Add a Job
+### Add a Job
 
 ![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/AddJob.JPG)
 
-Edit a Job
+### Edit a Job
 
 ![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/editJob.JPG)
 
-Search Jobs
+### Search Jobs
 
 ![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/searchJobs.JPG)
 
