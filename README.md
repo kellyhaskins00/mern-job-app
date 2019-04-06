@@ -8,7 +8,12 @@ List of Jobs Applied
 
 ![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/jobList.JPG)
 
+Add a Job
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/AddJob.JPG)
 
+Search Jobs
+
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/searchJobs.JPG)
 
 
 ### `npm start`
