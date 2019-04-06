@@ -4,6 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+List of Jobs Applied
+
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/jobList.JPG)
+
+Add a Job
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/AddJob.JPG)
+
+Search Jobs
+
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/searchJobs.JPG)
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
