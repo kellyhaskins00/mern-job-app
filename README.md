@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 List of Jobs Applied
 
-![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/images/jobList.JPG)
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/mern-job-app/master/img/jobList.JPG)
 
 
 
