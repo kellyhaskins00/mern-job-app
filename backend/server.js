@@ -14,8 +14,13 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://127.0.0.1:27017/jobs', { useNewUrlParser: true});
 const connection = mongoose.connection;
 
-// mongoose.connect('mongodb://heroku_346zp5tm:joi5m43fokc666ae5lnfudk1jg@ds131676.mlab.com:31676/heroku_346zp5tm');
-// const connection = mongoose.connection;
+app.listen(process.env.PORT || 3000, function() {
+    console.log('Express server is up and running!');
+  });
+
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://user:test123@ds111025.mlab.com:11025/heroku_70v5gncv');
+
 
 connection.once('open', function() {
     console.log("MongoDB databse connection established successfully");
